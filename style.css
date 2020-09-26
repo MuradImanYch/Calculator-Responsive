@@ -1,0 +1,55 @@
+#korpus{
+			height: 520px;
+			width: 350px;
+			background: gray;
+			margin: 50px auto;
+			border-radius: 15px;
+			box-shadow: 0px 0px 10px gray;
+		}
+		#display{
+			outline: none;
+			height: 40px;
+			width: 300px;
+			margin: 20px 0 0 23px;
+			border-radius: 7px;
+			text-align: right;
+			font-size: 2.4em;
+			font-family: 'Exo', sans-serif;
+		}
+		button{
+			outline: none;
+			height: 65px;
+			width: 65px;
+			margin: 10px 0 0 10px;
+			font-family: 'Exo', sans-serif;
+			font-size: 2.5em;
+		}
+		#korpus div{
+			margin: 10px 0 0 14px;
+		}
+		#sumBtn{
+			margin: 20px 0 0 10px;
+			width: 224px;
+			border-radius: 0 0 10px 0;
+			outline: none;
+		}
+		#resetBtn{
+			margin: 0 0 0 24px;
+			border-radius: 0 0 0 10px;
+			outline: none;
+		}
+		button:active{
+			height: 60px;
+			width: 60px;
+			margin-right: 5px;
+			border: 2px solid silver;
+		}
+		#resetBtn:active{
+			margin-right: 5px;
+		}
+		#sumBtn:active{
+			margin-right: 5px;
+			height: 65px;
+			width: 215px;
+			border: 2px solid silver;
+		}

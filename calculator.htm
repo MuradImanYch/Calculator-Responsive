@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>calculator</title>
+	<link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@1,500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div id="korpus">
+		<input disabled="" placeholder="0" type="text" id="display">
+		<div>
+			<button onclick="clickFunc(7)">7</button>
+			<button onclick="clickFunc(8)">8</button>
+			<button onclick="clickFunc(9)">9</button>
+			<button onclick="clickFunc('/')">/</button>
+		</div>
+		<div>
+			<button onclick="clickFunc(4)">4</button>
+			<button onclick="clickFunc(5)">5</button>
+			<button onclick="clickFunc(6)">6</button>
+			<button onclick="clickFunc('*')">*</button>
+		</div>
+		<div>
+			<button onclick="clickFunc(1)">1</button>
+			<button onclick="clickFunc(2)">2</button>
+			<button onclick="clickFunc(3)">3</button>
+			<button onclick="clickFunc('-')">-</button>
+		</div>
+		<div>
+			<button onclick="clickFunc(0)">0</button>
+			<button onclick="point('.')">.</button>
+			<button onclick="clickFunc('+')">+</button>
+			<button onclick="sqrt('√')">√</button>
+		</div>
+		<button id="resetBtn" onclick="reset()">C</button>
+		<button onclick="sum()" id="sumBtn">=</button>
+	</div>
+	
+	<script src="script.js"></script>
+</body>
+</html>
